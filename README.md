@@ -31,6 +31,7 @@ npx vercel --prod
 
 ## Editing content
 
-- Bio: `index.html` (marked `EDIT ME`)
-- Contact handles: `contact.html` (marked `EDIT ME`)
+- Bio: `index.html`
+- Contact handles: `contact.html`
+- Profile picture: replace `pfp.webp` (used in nav + favicon)
 - New project: add a `<li>` in `works.html` + a page under `works/`
