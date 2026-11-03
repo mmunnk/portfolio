@@ -74,6 +74,13 @@ nav a[aria-current="page"] {
   text-underline-offset: 4px;
 }
 
+@media (max-width: 400px) {
+  nav {
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+}
+
 /* content */
 h1 {
   font-size: 1.1rem;
@@ -168,6 +175,23 @@ ul.works .desc {
 
 .features li::before {
   content: "— ";
+  color: var(--muted);
+}
+
+/* skills */
+.skills {
+  margin: 2rem 0 0;
+}
+
+.skills dt {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.skills dd {
+  margin: 0 0 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
   color: var(--muted);
 }
 
